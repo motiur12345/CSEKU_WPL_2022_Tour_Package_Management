@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="resources/css/style2.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="drop-menu">
+                <a href="#">Menu</a>
+                <ul class="drop">
+                    <li><a href="profile.php">Your profile</a></li>
+                    
+<!--                    <li><a href="tour-scheme.html">Tour Scheme</a></li>-->
+                    <li><a href="transport-hotels.html">Hotels & Transportation</a></li>
+<!--                    <li><a href="reserve-ticket.html">Ticket Availability</a></li>-->
+                    <li><a href="#">Logout</a></li>
+                   
+                </ul>
+            </li>
+            <li><a  href="home.html">Home</a></li>
+            <li><a href="package2.php">tour package</a></li>
+            <li><a class="active-page" href="gallery.html">Gallery</a></li>
+            <li><a href="hotels-quality.html">Services</a></li>
+            <li><a href="contact.html">contact Us</a></li>
+            <li><a href="agencies.php">Agency</a></li>
+            
+          </ul>
+    </nav>
+
+    <div class="bg-gallery">
+        <div class="container-g">
+            <h1 style="
+         
+          border-left: 7px solid red;
+          padding-left: 10px;
+          color: white;
+        ">
+                Gallery
+            </h1>
+            <div class="grid-m">
+                <div class="item-g"> <img src="resources/images/deer-bg.jpg" alt=""></div>
+                <div class="item-g"><img src="resources/images/coxbazzer.jpg" alt=""></div>
+                <div class="item-g"> <img src="resources/images/sundarbans.jpg" alt=""> </div>
+                <div class="item-g"> <img src="resources/images/sajek.jpg" alt=""></div>
+                <div class="item-g"> <img src="resources/images/saintmartin.jpg" alt=""></div>
+                <div class="item-g"> <img src="resources/images/bg-sundarban.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<style>
+    .bg-gallery {
+        background: url(resources/images/sajek-bg2.jpg) no-repeat;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: rgba(18, 17, 17, 0.69);
+        height: 700px;
+        width: 100%;
+    }
+    
+    .container-g {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: auto;
+        width: 1000px;
+    }
+    
+    .grid-m {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5px;
+        /* width: 1000px; */
+    }
+    
+    .item-g img {
+        width: 300px;
+        height: 200px;
+        margin: 5px;
+    }
+</style>
+
+</html>
